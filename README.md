@@ -2,8 +2,6 @@
 
 A secure encryption framework that combines AES, RSA, and Camellia to provide multi-layered protection for text, images, audio, and video files. This hybrid approach enhances confidentiality, prevents key interception, and improves resilience against brute-force and differential attacks.
 
-![Encryption Overview](https://i.imgur.com/nwrclvV.png)
-
 ---
 
 🧠 Key Concepts
@@ -70,19 +68,6 @@ A secure encryption framework that combines AES, RSA, and Camellia to provide mu
 
 ---
 
-📸 Screenshots & Outputs
-
-> ✅ Key Generation
-> ![Key Generation](https://i.imgur.com/9MdOGE5.png)
-
-> 🔐 Encryption Process
-> ![Encryption](https://i.imgur.com/tzW8Bv6.png)
-
-> 🔓 Decryption Result
-> ![Decryption](https://i.imgur.com/2XvT7K7.png)
-
----
-
 📈 Results & Performance
 
 | Metric                 | Result                                        |
@@ -101,10 +86,4 @@ A secure encryption framework that combines AES, RSA, and Camellia to provide mu
 * 🚅 Optimize speed for large multimedia files.
 * 🔁 Add GUI or web-based interface using Flask or Gradio.
 
----
-
-👨‍💻 Authors
-
-* **K Balavignesh Reddy** – [GitHub](https://github.com/Balavignesh26)
-* **R Kabin Dev**
-* **P Gagan Devesh**
+--- 
