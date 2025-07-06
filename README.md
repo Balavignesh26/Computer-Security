@@ -4,34 +4,34 @@ A secure encryption framework that combines AES, RSA, and Camellia to provide mu
 
 ---
 
-🧠 Key Concepts
+Key Concepts
 
 | Technique                  | Role                                           |
 | -------------------------- | ---------------------------------------------- |
-| 🔒 **AES (CBC Mode)**      | Fast symmetric encryption for half of the data |
-| 🔐 **Camellia (CBC Mode)** | Symmetric encryption for the other half        |
-| 🔑 **RSA**                 | Asymmetric encryption for secure key exchange  |
-| 🧬 **Hybrid Model**        | AES + Camellia (symmetric) + RSA (asymmetric)  |
+|  **AES (CBC Mode)**      | Fast symmetric encryption for half of the data |
+|  **Camellia (CBC Mode)** | Symmetric encryption for the other half        |
+|  **RSA**                 | Asymmetric encryption for secure key exchange  |
+|  **Hybrid Model**        | AES + Camellia (symmetric) + RSA (asymmetric)  |
 
 ---
 
 🚀 Features
 
-* 🔐 **Triple-layer security** using hybrid encryption.
+*  "Triple-layer security" using hybrid encryption.
 * 📂 Supports encryption of:
 
   * Text Files
   * Images
   * Audio
   * Videos (with frame length preservation)
-* 📊 Performance-tested with multiple file types.
-* 🔄 Fully reversible encryption with accurate decryption.
+*  Performance-tested with multiple file types.
+*  Fully reversible encryption with accurate decryption.
 
 ---
 
 🧪 Simple Algorithm Overview
 
-🔑 Key Generation & Exchange
+Key Generation & Exchange
 
 ```text
 1. Receiver generates RSA key pair (public + private).
@@ -39,7 +39,7 @@ A secure encryption framework that combines AES, RSA, and Camellia to provide mu
 3. Sender encrypts these keys using receiver’s RSA public key.
 ```
 
-🔄 Encryption Workflow (Sender)
+Encryption Workflow (Sender)
 
 ```text
 1. Input file → split into 2 parts.
@@ -49,7 +49,7 @@ A secure encryption framework that combines AES, RSA, and Camellia to provide mu
 5. Transmit final encrypted package.
 ```
 
-🔓 Decryption Workflow (Receiver)
+Decryption Workflow (Receiver)
 
 ```text
 1. Decrypt AES and Camellia keys using RSA private key.
@@ -59,12 +59,12 @@ A secure encryption framework that combines AES, RSA, and Camellia to provide mu
 
 ---
 
-🧰 Tech Stack
+Tech Stack
 
-* 💻 Python (Jupyter Notebooks)
-* 📦 `cryptography` library (AES, RSA, Camellia)
-* 🖼️ OpenCV for image and video handling
-* 🔊 `wave` and `pydub` for audio processing
+*  Python (Jupyter Notebooks)
+*  `cryptography` library (AES, RSA, Camellia)
+* 🖼 OpenCV for image and video handling
+*  `wave` and `pydub` for audio processing
 
 ---
 
@@ -72,10 +72,10 @@ A secure encryption framework that combines AES, RSA, and Camellia to provide mu
 
 | Metric                 | Result                                        |
 | ---------------------- | --------------------------------------------- |
-| 🔄 Decryption Accuracy | ✅ 100%                                        |
-| 📹 Video Support       | ✅ Frame integrity maintained                  |
-| ⚡ Encryption Speed     | ⚖️ Balanced across file types                 |
-| 🔐 Security            | ✅ Resistant to brute-force & key interception |
+|  Decryption Accuracy |  100%                                        |
+|  Video Support       |  Frame integrity maintained                  |
+|  Encryption Speed     |  Balanced across file types                 |
+|  Security            |  Resistant to brute-force & key interception |
 
 
 ---
